@@ -90,3 +90,30 @@ marquee {
   width: 70%;
 }
 
+.section3 {
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.testimonial-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.test-img {
+  width: 17rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.test-img:hover {
+  transform: rotate(-5deg);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
