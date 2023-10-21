@@ -68,3 +68,25 @@ nav a:hover {
 .service-img:hover {
   transform: scale(1.1);
 }
+
+.section2 {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.update {
+  display: inline;
+  background: black;
+  color: white;
+  padding: 0.3rem 15rem;
+}
+
+marquee {
+  padding: 1rem 0.5rem;
+  width: 70%;
+}
+
