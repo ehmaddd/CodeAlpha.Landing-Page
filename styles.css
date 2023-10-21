@@ -14,14 +14,57 @@ nav {
   padding: 10px;
   text-align: center;
 }
+
 nav a {
   color: #fff;
   text-decoration: none;
   margin: 10px;
   padding: 0px 1.5rem;
 }
+
 nav a:hover {
   padding: 0.55rem 1.5rem;
   background-color: yellowgreen;
   border: 1px solid transparent;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1 {
+  background-color: rgba(218, 165, 32, 0.2);
+  padding: 10px 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.service-header {
+  margin: 0;
+}
+
+.service-img {
+  margin: 1rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  width: 15rem;
+  height: 15rem;
+  transition: transform 0.5s ease;
+  transform: scale(1);
+}
+
+.service-img:hover {
+  transform: scale(1.1);
 }
